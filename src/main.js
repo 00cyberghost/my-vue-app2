@@ -24,9 +24,9 @@ app.use(router)
 
 
 // Mount the app if running in the browser
-if (import.meta.env.DEV) {
+
   app.mount('#app');
-}
+
 
 // Export the app instance for library mode
 export default app;
